@@ -1,0 +1,30 @@
+.banner{
+    margin-top:-20px;
+}
+.jz_pic{
+    width:80%;
+    margin:0 auto;
+    margin-top:100px;
+    overflow:hidden;
+}
+.jz_pic .jz_left{
+    float:left;
+    width:40%;
+    position:relative;
+    left:10%;
+    top:80px;
+}
+.jz_pic .jz_left span{
+    display:block;
+    width:60%;
+    float:left;
+    height:80px;
+    line-height:30px;
+}
+.jz_pic .jz_left span strong{
+    font-size:30px;
+}
+.jz_pic .jz_right{
+    float:right;
+    width:60%;
+}

@@ -1,0 +1,73 @@
+#banner{
+    width:100%;
+    margin-top:-40px;
+}
+/* 产品图*/
+.bg-xl{
+    width:60%;
+    margin:0 auto;
+    margin-top:100px;
+    padding-bottom:100px;
+    overflow:hidden;
+}
+.bg-xl .pro_left{
+    width:60%;
+    float:left;
+}
+.bg-xl .pro_left span{
+    width:100%;
+    float:left;
+    line-height:30px;
+    height:30px;
+}
+.bg-xl .pro_left span.price{
+    padding-top:30px;
+    font-size:20px;
+    line-height:100px;
+    height:100px;
+}
+.bg-xl .pro_left span.price strong{
+    font-size:40px;
+}
+.bg-xl .pro_right{
+    width:40%;
+    float:right;
+    margin-top:250px;
+    position:relative;
+    left:-50px;
+}
+.all-bg{
+    width:100%;
+    background:#F5F5F5;
+    overflow:hidden;
+}
+.bg1-xl{
+    width:60%;
+    margin:0 auto;
+    margin-top:100px;
+    padding-bottom:100px;
+    background: #F5F5F5;
+}
+.bg1-xl .pro1_left{
+    float:left;
+    width:30%;
+}
+.bg1-xl .pro1_right{
+    float:right;
+    width:66%;
+}
+.bg1-xl .pro1_left span{
+    width:100%;
+    float:left;
+    line-height:30px;
+    height:30px;
+}
+.bg1-xl .pro1_left span.price{
+    padding-top:30px;
+    font-size:20px;
+    line-height:100px;
+    height:100px;
+}
+.bg1-xl .pro1_left span.price strong{
+    font-size:40px;
+}

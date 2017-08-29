@@ -1,0 +1,83 @@
+#banner{
+    margin-top:-20px;
+}
+.ear{
+    width:60%;
+    margin:20px auto;
+    padding-bottom:50px;
+    overflow:hidden;
+}
+.ear .ear_left{
+    width:40%;
+    float:left;
+}
+.ear .ear_left .img{
+    width:80%;
+    margin:0 auto;
+    /*margin-left:3px;*/
+}
+.ear .ear_left span{
+    height:120px;
+    line-height:30px;
+    width:60%;
+    display:block;
+    font-size:14px;
+    color:#999;
+}
+.ear .ear_left span.price{
+    color:black;
+}
+.ear .ear_left span.price strong{
+    font-size:30px;
+    color:black;
+}
+.ear .ear_right{
+    float:right;
+    width:50%;
+    position:relative;
+}
+.ear .ear_right .bg_img{
+    display:block;
+}
+.ear .ear_right .img_top{
+    display:block;
+    position:absolute;
+    top:30px;
+    left:80px;
+}
+.ear_bg{
+    background: #F5F5F5;
+    width:100%;
+    overflow:hidden;
+}
+.ear_bg .content{
+    width:70%;
+    margin:100px auto;
+}
+.ear_bg .content .ear1_left{
+    float:left;
+    width:30%;
+}
+.ear_bg .content .ear1_left h3{
+    color:#333333;
+    font-size:20px;
+    margin-top:20px;
+}
+.ear_bg .content .ear1_left  span{
+    width:90%;
+    float:left;
+    height:100px;
+    line-height:30px;
+    color:#999;
+}
+.ear_bg .content .ear1_left  span.price{
+    color:black;
+    font-size:16px;
+}
+.ear_bg .content .ear1_left  span.price strong{
+    font-size:30px;
+}
+.ear_bg .content .ear1_right{
+    float:right;
+    width:65%;
+}

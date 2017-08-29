@@ -1,0 +1,1327 @@
+/*媒体查询，参考部分Bootstrap 框架*/
+/*当页面大于1200px 时，大屏幕，主要是PC 端*/
+@media (min-width: 1200px) {
+    #bg .border{
+        width:60%;
+        height:400px;
+    }
+    #bg1{
+        left:65%;
+        top:250px;
+    }
+    #bg2{
+        height:80px;
+    }
+    /*产品文字*/
+    .text{
+        background:#f7f7f7;
+        height:300px;
+    }
+    .text1{
+        width:40%;
+        height:272px;
+        float:left;
+        background:url(../img/zhu5.png)no-repeat;
+        margin:2% 0 0 20%;
+        position:relative; 
+    }
+    .text1 h2{
+        width:100%;
+        margin:0 auto;
+        color:#666666;
+        font-size:22px;
+        position:absolute;
+        margin:60px 0 0 80px;
+    }
+    .text1 span{
+        width:100%;
+        margin:0 auto;
+        color:#919191;
+        font-size:14px;
+        position:absolute;
+        margin:100px 0 0 80px;
+    }
+    .text1 p{
+        width:100%;
+        margin:0 auto;
+        color:#919191;
+        font-size:12px;
+        position:absolute;
+        margin:140px 0 0 80px;
+    }
+    .text2{
+        width:30%;
+        position:absolute;
+        margin:120px 0 0 60%; 
+    }
+    .text2 span{
+        font-size:25px;
+    }
+    .text2 span strong{
+        font-size:32px;
+        font-weight:normal;
+    }
+    .text2 button{
+        width:120px;
+        height:40px;
+        margin:50px 0 0 20px;
+        background:#02B2B5;
+    }
+    .text2 button:hover{
+         background:#02B2B5;
+    }
+    .text2 button a{
+       color:white;
+    }
+    /*产品项链的适配*/
+    #xl .left span.header{
+        font-size:25px;
+    }
+    #xl .left span.title{
+        font-size:18px;
+    }
+    #xl .left span.key{
+        font-size:18px;
+    }
+    #xl .left span.eglish{
+        font-size:12px;
+    }
+    #xl .right{
+        width:20%;
+    }
+    #xl .right img{
+        margin-left:-40px;
+    }
+    #xl .right img{
+        margin-left:-240px;
+    }
+    #xl .xl-bottom .xlbg{
+        top:30%;
+        background-size:70%,80%;
+    }
+    #xl .xl-bottom .xlbg div{
+        top:30%;
+        left:10%;
+        width:50%;
+    }
+    #xl .xl-bottom .xlbg div img{
+        width:40%;
+        margin:10px auto;
+    }
+    #xl .xl-bottom .xlbg div span{
+        height:30px;
+        line-height:30px;
+        font-size:16px;
+    }
+}
+/*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*顶部*/
+    #after ul{
+        float:right;
+        margin:0 10% 0 0;
+    }
+    #before a,#after ul li a{
+        font-size:14px;
+    }
+    /*导航*/
+    .navbar-header{
+        width:45%;
+        line-height:30px;
+    }
+    .navbar-header a{
+        margin:30px 10% 30px 0;
+        font-size:24px;
+    }
+    .navbar ul{
+       float:left;
+       width:55%;
+    }
+    .navbar-nav li{
+        margin:25px 0 25px 2px;
+        width:19%;
+    }
+    .navbar-nav li a{
+        font-size:16px;  
+    }
+    /*主页产品*/
+    #bg .border{
+        width:60%;
+        height:300px;
+    }
+    #bg1{
+        left:65%;
+        top:200px;
+    }
+    #bg2{
+        height:10px;
+    }
+    /*产品文字*/
+    .text{
+        background:#f7f7f7;
+        height:300px;
+    }
+    .text1{
+        width:50%;
+        float:left;
+        margin:2% 0 0 20%;
+        position:relative; 
+    }
+    .text2{
+        width:30%;
+        position:absolute;
+        margin:120px 0 0 70%; 
+    }
+    .text2 span{
+        font-size:25px;
+    }
+    .text2 span strong{
+        font-size:32px;
+        font-weight:normal;
+    }
+    .text2 button{
+        width:120px;
+        height:40px;
+        margin:50px 0 0 20px;
+        background:#02B2B5;
+    }
+    .text2 button:hover{
+         background:#02B2B5;
+    }
+    .text2 button a{
+       color:white;
+    }
+    /*产品项链的适配*/
+    #xl .left span.header{
+        font-size:20px;
+    }
+    #xl .left span.title{
+        font-size:18px;
+    }
+    #xl .left span.key{
+        font-size:16px;
+    }
+    #xl .left span.eglish{
+        font-size:12px;
+    }
+    #xl .right{
+        width:20%;
+    }
+    #xl .right img{
+        margin-left:-180px;
+    }
+    #xl .xl-bottom .xlbg{
+        top:30%;
+        background-size:70%,80%;
+    }
+    #xl .xl-bottom .xlbg div{
+        top:16%;
+        left:40px;
+        width:50%;
+    }
+    #xl .xl-bottom .xlbg div img{
+        width:40%;
+        margin:8px auto;
+    }
+    #xl .xl-bottom .xlbg div span{
+        height:30px;
+        line-height:30px;
+        font-size:14px;
+    }
+    #jz .des h3{
+        font-size:18px;
+        margin-top:30%;
+    }
+    #jz .des span{
+        line-height:20px;
+        height:20px;
+    }
+    #jz .des span:nth-child(2){
+        margin:0 0 0 15%;
+        font-size:14px;
+    }
+    #jz .des span:nth-child(3){
+        margin:0 0 0 8%;
+        font-size:14px;
+    }
+    #jz .des span:nth-child(4){
+        margin:0 0 0 1%;
+        font-size:12px;
+    }
+    #jz .des span:nth-child(5){
+        margin:0 0 0 20%;
+        line-height:60px;
+        height:60px;
+        font-size:10px;
+    }
+    #jz .des span:nth-child(5) strong{
+        font-size:25px;
+    }
+    #jz .des button{
+        margin:0 0 10px 15%;
+    }
+    /*项链专区 适配*/
+    .bg-xl{
+        width:90%;
+        margin-top:10px;
+        padding-bottom:10px;
+    }
+    .bg-xl .pro_left{
+        width:60%;
+        float:left;
+    }
+    .bg-xl .pro_left h2{
+        font-size:20px;
+    }
+    .bg-xl .pro_left span{
+        width:100%;
+        float:left;
+        line-height:20px;
+        height:20px;
+        font-size:12px;
+    }
+    .bg-xl .pro_left span.price{
+        padding-top:10px;
+        font-size:14px;
+        line-height:100px;
+        height:100px;
+    }
+    .bg-xl .pro_left span.price strong{
+        font-size:24px;
+    }
+    .bg-xl .pro_right{
+        margin-top:250px;
+        left:-40px;
+    }
+    .bg1-xl{
+        width:90%;
+        margin:30px auto;
+        background: #F5F5F5;
+    }
+    .bg1-xl .pro1_left{
+        float:left;
+        width:30%;
+    }
+    .bg1-xl .pro1_right{
+        float:right;
+        width:66%;
+    }
+    .bg1-xl .pro1_left span{
+        width:100%;
+        line-height:20px;
+        height:20px;
+        font-size:12px;
+    }
+    .bg1-xl .pro1_left  h2{
+        font-size:20px;
+    }
+    .bg1-xl .pro1_left span.price{
+        padding-top:20px;
+        font-size:16px;
+        line-height:120px;
+        height:120px;
+    }
+    .bg1-xl .pro1_left span.price strong{
+        font-size:24px;
+    }
+    /*戒指专区*/
+    .jz_pic{
+        width:90%;
+        margin-top:50px;
+    }
+    .jz_pic .jz_left{
+        left:5%;
+        top:20px;
+    }
+    .jz_pic .jz_left  h2{
+        font-size:24px;
+    }
+    .jz_pic .jz_left span{
+        width:90%;
+        height:100px;
+        line-height:30px;
+        font-size:14px;
+    }
+    .jz_pic .jz_left span strong{
+        font-size:26px;
+    }
+     /*耳饰专区*/
+    .ear{
+        width:90%;
+        margin:10px auto;
+        padding-bottom:20px;
+    }
+    .ear .ear_left{
+        width:40%;
+        float:left;
+    }
+    .ear .ear_left .img{
+        width:90%;
+        margin:0 auto;
+        /*margin-left:3px;*/
+    }
+    .ear .ear_left span{
+        width:120%;
+        font-size:16px;
+        height:80px;
+    }
+    .ear .ear_left h3{
+        font-size:20px;
+    }
+    .ear .ear_left span.price{
+        height:30px;
+    }
+    .ear .ear_left span.price strong{
+        font-size:30px;
+    }
+    .ear .ear_right .img_top{
+        top:40px;
+        left:20px;
+    }
+    .ear_bg .content{
+        width:90%;
+        margin:20px auto;
+    }
+    .ear_bg .content .ear1_left{
+        float:left;
+        width:32%;
+    }
+    .ear_bg .content .ear1_left h3{
+        font-size:20px;
+        margin-top:20px;
+    }
+    .ear_bg .content .ear1_left  span{
+        width:100%;
+        height:80px;
+        line-height:20px;
+        font-size:14px;
+    }
+    .ear_bg .content .ear1_left  span.price{
+        font-size:14px;
+        height:30px;
+    }
+    .ear_bg .content .ear1_left  span.price strong{
+        font-size:26px;
+    }
+    .ear_bg .content .ear1_right{
+        width:65%;
+        margin-top:20px;
+    }
+}
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*顶部*/
+    #after ul{
+        float:right;
+        margin:0 10% 0 0;
+    }
+    #before a,#after ul li a{
+        font-size:14px;
+    }
+    /*导航*/
+    .navbar-header{
+        width:100%;
+        line-height:10px;
+    }
+    .navbar-header a{
+        margin:18px 60% 18px 0;
+        font-size:20px;
+    }
+    .navbar ul{
+       float:left;
+       width:100%;
+    }
+    .navbar-nav li{
+        margin:0 0 10px 2px;
+        width:17%;
+    }
+    .navbar-nav li a{
+        font-size:15px;  
+    }
+    /*主页产品*/
+    #bg .border{
+        width:65%;
+        height:250px;
+    }
+    #bg1{
+        left:71%;
+        top:200px;
+    }
+    #bg2{
+        height:40px;
+    }
+    /*产品文字*/
+    .text{
+        background:#f7f7f7;
+        height:300px;
+    }
+    .text1{
+        width:50%;
+        float:left;
+        margin:2% 0 0 15%;
+        position:relative; 
+    }
+    .text2{
+        width:30%;
+        position:absolute;
+        margin:80px 0 0 70%; 
+    }
+    .text2 span{
+        font-size:20px;
+    }
+    .text2 span strong{
+        font-size:28px;
+        font-weight:normal;
+    }
+    .text2 button{
+        width:120px;
+        height:40px;
+        margin:50px 0 0 20px;
+        background:#02B2B5;
+    }
+    .text2 button:hover{
+         background:#02B2B5;
+    }
+    .text2 button a{
+       color:white;
+    }
+    /*产品项链的适配*/
+    #xl .left span.header{
+        font-size:16px;
+    }
+    #xl .left span.title{
+        font-size:18px;
+    }
+    #xl .left span.key{
+        font-size:14px;
+    }
+    #xl .left span.eglish{
+        font-size:12px;
+    }
+    #xl .right{
+        width:20%;
+    }
+    #xl .right img{
+        margin-left:-40px;
+    }
+    #xl .xl-bottom .xlbg{
+        top:30%;
+        background-size:70%,80%;
+    }
+    #xl .xl-bottom .xlbg div{
+        top:12%;
+        left:30px;
+        width:50%;
+    }
+    #xl .xl-bottom .xlbg div img{
+        width:40%;
+        margin:10px auto;
+    }
+    #xl .xl-bottom .xlbg div span{
+        height:30px;
+        line-height:30px;
+        font-size:12px;
+    }
+    #jz .des{
+        width:50%;
+    }
+    #jz .des h3{
+        font-size:14px;
+        margin-top:30%;
+    }
+    #jz .des span{
+        line-height:20px;
+        height:20px;
+    }
+    #jz .des span:nth-child(2){
+        margin:0 0 0 15%;
+        font-size:14px;
+    }
+    #jz .des span:nth-child(3){
+        margin:0 0 0 2%;
+        font-size:14px;
+    }
+    #jz .des span:nth-child(4){
+        margin:0 0 0 5%;
+        font-size:12px;
+    }
+    #jz .des span:nth-child(5){
+        margin:0 0 0 20%;
+        line-height:60px;
+        height:60px;
+        font-size:10px;
+    }
+    #jz .des span:nth-child(5) strong{
+        font-size:25px;
+    }
+    #jz .des button{
+        margin:0 0 10px 15%;
+    }
+    /*项链专区 适配*/
+    .bg-xl{
+        width:90%;
+        margin-top:10px;
+        padding-bottom:10px;
+    }
+    .bg-xl .pro_left{
+        width:60%;
+        float:left;
+    }
+    .bg-xl .pro_left h2{
+        font-size:20px;
+    }
+    .bg-xl .pro_left span{
+        width:100%;
+        float:left;
+        line-height:20px;
+        height:20px;
+        font-size:12px;
+    }
+    .bg-xl .pro_left span.price{
+        padding-top:10px;
+        font-size:14px;
+        line-height:100px;
+        height:100px;
+    }
+    .bg-xl .pro_left span.price strong{
+        font-size:18px;
+    }
+    .bg-xl .pro_right{
+        margin-top:180px;
+        left:-20px;
+    }
+    .bg1-xl{
+        width:90%;
+        margin:30px auto;
+        background: #F5F5F5;
+    }
+    .bg1-xl .pro1_left{
+        float:left;
+        width:30%;
+    }
+    .bg1-xl .pro1_right{
+        float:right;
+        width:66%;
+    }
+    .bg1-xl .pro1_left span{
+        width:100%;
+        line-height:20px;
+        height:20px;
+        font-size:12px;
+    }
+    .bg1-xl .pro1_left  h2{
+        font-size:20px;
+    }
+    .bg1-xl .pro1_left span.price{
+        padding-top:20px;
+        font-size:16px;
+        line-height:120px;
+        height:120px;
+    }
+    .bg1-xl .pro1_left span.price strong{
+        font-size:20px;
+    }
+    /*戒指专区*/
+    .jz_pic{
+        width:90%;
+        margin-top:50px;
+    }
+    .jz_pic .jz_left{
+        left:5%;
+        top:20px;
+    }
+    .jz_pic .jz_left  h2{
+        font-size:20px;
+    }
+    .jz_pic .jz_left span{
+        width:90%;
+        height:60px;
+        line-height:20px;
+        font-size:12px;
+    }
+    .jz_pic .jz_left span strong{
+        font-size:20px;
+    }
+     /*耳饰专区*/
+    .ear{
+        width:90%;
+        margin:10px auto;
+        padding-bottom:10px;
+    }
+    .ear .ear_left{
+        width:40%;
+        float:left;
+    }
+    .ear .ear_left .img{
+        width:90%;
+        margin:0 auto;
+        /*margin-left:3px;*/
+    }
+    .ear .ear_left span{
+        width:120%;
+        font-size:14px;
+        height:80px;
+    }
+    .ear .ear_left h3{
+        font-size:20px;
+    }
+    .ear .ear_left span.price{
+        height:30px;
+    }
+    .ear .ear_left span.price strong{
+        font-size:24px;
+    }
+    .ear .ear_right .img_top{
+        top:50px;
+        left:30px;
+    }
+    .ear_bg .content{
+        width:90%;
+        margin:20px auto;
+    }
+    .ear_bg .content .ear1_left{
+        float:left;
+        width:32%;
+    }
+    .ear_bg .content .ear1_left h3{
+        font-size:16px;
+        margin-top:20px;
+    }
+    .ear_bg .content .ear1_left  span{
+        width:100%;
+        height:80px;
+        line-height:20px;
+        font-size:14px;
+    }
+    .ear_bg .content .ear1_left  span.price{
+        font-size:14px;
+        height:30px;
+    }
+    .ear_bg .content .ear1_left  span.price strong{
+        font-size:24px;
+    }
+    .ear_bg .content .ear1_right{
+        width:65%;
+        margin-top:20px;
+    }
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+  /*顶部*/
+    #after ul{
+        float:right;
+        margin:0 10% 0 0;
+    }
+    #before a,#after ul li a{
+        font-size:10px;
+    }
+    /*导航*/
+    .navbar-header{
+        width:100%;
+        line-height:10px;
+    }
+    .navbar-header a{
+        margin:15px 60% 15px 0;
+        font-size:10px;
+    }
+    .navbar ul{
+       float:left;
+       width:100%;
+    }
+    .navbar-nav li{
+        margin:0 0 10px 2px;
+        width:17%;
+    }
+    .navbar-nav li a{
+        font-size:12px;  
+    }
+    /*主页产品*/
+    #bg .border{
+        width:70%;
+        height:200px;
+    }
+    #bg1{
+        left:71%;
+        top:200px;
+    }
+    #bg2{
+        height:20px;
+    }
+    /*产品文字*/
+    .text{
+        background:#f7f7f7;
+        height:200px;
+    }
+    .text1{
+        width:50%;
+        float:left;
+        margin:2% 0 0 10%;
+        position:relative; 
+    }
+    .text2{
+        width:30%;
+        position:absolute;
+        margin:50px 0 0 70%; 
+    }
+    .text2 span{
+        font-size:20px;
+    }
+    .text2 span strong{
+        font-size:25px;
+        font-weight:normal;
+    }
+    .text2 button{
+        width:100px;
+        height:30px;
+        margin:40px 0 0 15px;
+        background:#02B2B5;
+    }
+    .text2 button:hover{
+         background:#02B2B5;
+    }
+    .text2 button a{
+       color:white;
+    }
+    /*产品项链的适配*/
+    #xl .left span.header{
+        font-size:14px;
+    }
+    #xl .left span.title{
+        font-size:16px;
+    }
+    #xl .left span.key{
+        font-size:12px;
+    }
+    #xl .left span.eglish{
+        font-size:10px;
+    }
+    #xl .right{
+        width:20%;
+    }
+    #xl .right img{
+        margin-left:-40px;
+    }
+    #xl .xl-bottom .xlbg{
+        top:30%;
+        background-size:70%,80%;
+    }
+    #xl .xl-bottom .xlbg div{
+        top:6%;
+        left:20px;
+        width:50%;
+    }
+    #xl .xl-bottom .xlbg div img{
+        width:40%;
+        margin:8px auto;
+    }
+    #xl .xl-bottom .xlbg div span{
+        height:20px;
+        line-height:20px;
+        font-size:12px;
+    }
+    #jz .des{
+        width:60%;
+    }
+    #jz .des h3{
+        font-size:14px;
+        margin-top:20%;
+    }
+    #jz .des span{
+        line-height:20px;
+        height:20px;
+    }
+    #jz .des span:nth-child(2){
+        margin:0 0 0 15%;
+        font-size:14px;
+    }
+    #jz .des span:nth-child(3){
+        margin:0 0 0 2%;
+        font-size:14px;
+    }
+    #jz .des span:nth-child(4){
+        margin:0 0 0 5%;
+        font-size:12px;
+    }
+    #jz .des span:nth-child(5){
+        margin:0 0 0 20%;
+        line-height:60px;
+        height:60px;
+        font-size:10px;
+    }
+    #jz .des span:nth-child(5) strong{
+        font-size:25px;
+    }
+    #jz .des button{
+        margin:0 0 10px 15%;
+    }
+    /*项链专区 适配*/
+    .bg-xl{
+        width:90%;
+        margin-top:10px;
+        padding-bottom:10px;
+    }
+    .bg-xl .pro_left{
+        width:60%;
+        float:left;
+    }
+    .bg-xl .pro_left h2{
+        font-size:14px;
+    }
+    .bg-xl .pro_left span{
+        width:100%;
+        float:left;
+        line-height:20px;
+        height:20px;
+        font-size:12px;
+    }
+    .bg-xl .pro_left span.price{
+        padding-top:40px;
+        font-size:14px;
+        line-height:100px;
+        height:100px;
+    }
+    .bg-xl .pro_left span.price strong{
+        font-size:18px;
+    }
+    .bg-xl .pro_right{
+        margin-top:100px;
+        left:-20px;
+    }
+    .bg1-xl{
+        width:90%;
+        margin:30px auto;
+        background: #F5F5F5;
+    }
+    .bg1-xl .pro1_left{
+        float:left;
+        width:30%;
+    }
+    .bg1-xl .pro1_right{
+        float:right;
+        width:66%;
+    }
+    .bg1-xl .pro1_left span{
+        width:100%;
+        line-height:20px;
+        height:20px;
+        font-size:12px;
+    }
+    .bg1-xl .pro1_left  h2{
+        font-size:12px;
+    }
+    .bg1-xl .pro1_left span.price{
+        padding-top:50px;
+        font-size:14px;
+        line-height:150px;
+        height:150px;
+    }
+    .bg1-xl .pro1_left span.price strong{
+        font-size:14px;
+    }
+    /*戒指专区*/
+    .jz_pic{
+        width:90%;
+        margin-top:50px;
+    }
+    .jz_pic .jz_left{
+        left:5%;
+        top:20px;
+    }
+    .jz_pic .jz_left  h2{
+        font-size:14px;
+    }
+    .jz_pic .jz_left span{
+        width:90%;
+        height:100px;
+        line-height:20px;
+        font-size:12px;
+    }
+    .jz_pic .jz_left span strong{
+        font-size:16px;
+    }
+     /*耳饰专区*/
+    .ear{
+        width:90%;
+        margin:10px auto;
+        padding-bottom:10px;
+    }
+    .ear .ear_left{
+        width:40%;
+        float:left;
+    }
+    .ear .ear_left .img{
+        width:90%;
+        margin:0 auto;
+        /*margin-left:3px;*/
+    }
+    .ear .ear_left span{
+        width:120%;
+        font-size:12px;
+        height:130px;
+    }
+    .ear .ear_left h3{
+        font-size:16px;
+    }
+    .ear .ear_left span.price{
+        height:30px;
+    }
+    .ear .ear_left span.price strong{
+        font-size:20px;
+    }
+    .ear .ear_right .img_top{
+        top:30px;
+        left:20px;
+    }
+    .ear_bg .content{
+        width:90%;
+        margin:20px auto;
+    }
+    .ear_bg .content .ear1_left{
+        float:left;
+        width:32%;
+    }
+    .ear_bg .content .ear1_left h3{
+        font-size:14px;
+        margin-top:20px;
+    }
+    .ear_bg .content .ear1_left  span{
+        width:100%;
+        height:110px;
+        line-height:20px;
+        font-size:12px;
+    }
+    .ear_bg .content .ear1_left  span.price{
+        font-size:12px;
+        height:30px;
+    }
+    .ear_bg .content .ear1_left  span.price strong{
+        font-size:16px;
+    }
+    .ear_bg .content .ear1_right{
+        width:65%;
+        margin-top:20px;
+    }
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {
+    /*顶部*/
+    #after ul{
+        float:right;
+        margin:0 10% 0 0;
+    }
+    #before a,#after ul li a{
+        font-size:10px;
+    }
+    /*导航*/
+    #nav1{
+        display:none;
+    }
+    /*#nav2{
+        display:block;
+    }*/
+    .navbar-header{
+        width:100%;
+        line-height:10px;
+    }
+    .navbar-header a{
+        margin:10px 40% 10px 0;
+        font-size:10px;
+    }
+    .navbar ul li{
+       float:left;
+       width:100%;
+    }
+    .navbar-nav li{
+        margin:0 0 10px 2px;
+        width:17%;
+    }
+    .navbar-nav li a{
+        font-size:10px;  
+    }
+    /*主页产品*/
+    #bg{
+        padding:10px 0 0 0;
+    }
+    #bg .border{
+        width:70%;
+        height:150px;
+    }
+    #bg1{
+        left:71%;
+        top:150px;
+    }
+    
+      /*产品文字*/
+    .text{
+        background:#f7f7f7;
+        height:180px;
+    }
+    .text1{
+        width:65%;
+        float:left;
+        margin:2% 0 0 5%;
+        position:relative; 
+    }
+    .text2{
+        width:30%;
+        position:absolute;
+        margin:40px 0 0 70%;
+    }
+    .text2 span{
+        font-size:10px;
+    }
+    .text2 span strong{
+        font-size:15px;
+        font-weight:normal;
+    }
+    .text2 button{
+        width:80px;
+        height:30px;
+        margin:10px 0 0 0;
+        background:#02B2B5;
+    }
+    .text2 button:hover{
+         background:#02B2B5;
+    }
+    .text2 button a{
+       color:white;
+    }
+    /*产品项链的适配*/
+    #xl .left span.header{
+        font-size:14px;
+        height:20px;
+        line-height:20px;
+        margin-top:15%;
+    }
+    #xl .left span.title{
+        font-size:14px;
+        margin-top:25px;
+    }
+    #xl .left span.key{
+        font-size:12px;
+        margin-top:5px;
+    }
+    #xl .left span.eglish{
+        font-size:10px;
+        display:none;
+    }
+    #xl .right{
+        width:20%;
+    }
+    #xl .right img{
+        margin-left:-40px;
+    }
+    #xl .xl-bottom .xlbg{
+        top:10%;
+        background-size:70%,80%;
+    }
+    #xl .xl-bottom .xlbg div{
+        top:6%;
+        left:20px;
+        width:50%;
+    }
+    #xl .xl-bottom .xlbg div img{
+        width:40%;
+        margin:8px auto;
+    }
+    #xl .xl-bottom .xlbg div span{
+        height:20px;
+        line-height:20px;
+        font-size:12px;
+    }
+    #jz .jzpic{
+        width:40%;
+    }
+    #jz .des{
+        width:60%;
+    }
+    #jz .des h3{
+        font-size:14px;
+        margin-top:20%;
+    }
+    #jz .des span{
+        line-height:20px;
+        height:20px;
+    }
+    #jz .des span:nth-child(2){
+        margin:0 0 0 15%;
+        font-size:14px;
+    }
+    #jz .des span:nth-child(3){
+        margin:0 0 0 2%;
+        font-size:14px;
+    }
+    #jz .des span:nth-child(4){
+        margin:0 0 0 5%;
+        font-size:12px;
+    }
+    #jz .des span:nth-child(5){
+        margin:0 0 0 20%;
+        line-height:60px;
+        height:60px;
+        font-size:10px;
+    }
+    #jz .des span:nth-child(5) strong{
+        font-size:25px;
+    }
+    #jz .des button{
+        margin:0 0 10px 15%;
+    }
+    .pro li span{
+        font-size:12px; 
+         white-space:nowrap;
+         overflow:hidden;
+         text-overflow:ellipsis;
+    }
+    .pro li span strong{
+        font-size:14px;
+    }
+    /*项链专区 适配*/
+    .bg-xl{
+        width:90%;
+        margin-top:10px;
+        padding-bottom:10px;
+    }
+    .bg-xl .pro_left{
+        width:60%;
+        float:left;
+    }
+    .bg-xl .pro_left h2{
+        font-size:14px;
+    }
+    .bg-xl .pro_left span{
+        width:100%;
+        float:left;
+        line-height:20px;
+        height:20px;
+        font-size:12px;
+    }
+    .bg-xl .pro_left span.price{
+        padding-top:40px;
+        font-size:14px;
+        line-height:100px;
+        height:100px;
+    }
+    .bg-xl .pro_left span.price strong{
+        font-size:18px;
+    }
+    .bg-xl .pro_right{
+        margin-top:100px;
+        left:-20px;
+    }
+    .bg1-xl{
+        width:90%;
+        margin:30px auto;
+        background: #F5F5F5;
+    }
+    .bg1-xl .pro1_left{
+        float:left;
+        width:30%;
+    }
+    .bg1-xl .pro1_right{
+        float:right;
+        width:66%;
+    }
+    .bg1-xl .pro1_left span{
+        width:100%;
+        line-height:20px;
+        height:20px;
+        font-size:12px;
+    }
+    .bg1-xl .pro1_left  h2{
+        font-size:12px;
+    }
+    .bg1-xl .pro1_left span.price{
+        padding-top:50px;
+        font-size:14px;
+        line-height:150px;
+        height:150px;
+    }
+    .bg1-xl .pro1_left span.price strong{
+        font-size:14px;
+    }
+    /*戒指专区*/
+    .jz_pic{
+        width:90%;
+        margin-top:50px;
+    }
+    .jz_pic .jz_left{
+        left:5%;
+        top:20px;
+    }
+    .jz_pic .jz_left  h2{
+        font-size:14px;
+    }
+    .jz_pic .jz_left span{
+        width:90%;
+        height:100px;
+        line-height:20px;
+        font-size:12px;
+    }
+    .jz_pic .jz_left span strong{
+        font-size:16px;
+    }
+    /*耳饰专区*/
+    .ear{
+        width:90%;
+        margin:10px auto;
+        padding-bottom:10px;
+    }
+    .ear .ear_left{
+        width:40%;
+        float:left;
+    }
+    .ear .ear_left .img{
+        width:90%;
+        margin:0 auto;
+        /*margin-left:3px;*/
+    }
+    .ear .ear_left span{
+        width:120%;
+        font-size:12px;
+        height:130px;
+    }
+    .ear .ear_left h3{
+        font-size:16px;
+    }
+    .ear .ear_left span.price{
+        height:30px;
+    }
+    .ear .ear_left span.price strong{
+        font-size:20px;
+    }
+    .ear .ear_right .img_top{
+        top:30px;
+        left:20px;
+    }
+    .ear_bg .content{
+        width:90%;
+        margin:20px auto;
+    }
+    .ear_bg .content .ear1_left{
+        float:left;
+        width:32%;
+    }
+    .ear_bg .content .ear1_left h3{
+        font-size:14px;
+        margin-top:20px;
+    }
+    .ear_bg .content .ear1_left  span{
+        width:100%;
+        height:110px;
+        line-height:20px;
+        font-size:12px;
+    }
+    .ear_bg .content .ear1_left  span.price{
+        font-size:12px;
+        height:30px;
+    }
+    .ear_bg .content .ear1_left  span.price strong{
+        font-size:16px;
+    }
+    .ear_bg .content .ear1_right{
+        width:65%;
+        margin-top:20px;
+    }
+
+}

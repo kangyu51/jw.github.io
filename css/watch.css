@@ -1,0 +1,31 @@
+#banner{
+    margin-top:-20px;
+}
+.hot-sall{
+    width:80%;
+    margin:0 auto;
+    margin-top:40px;
+    text-align:center;
+    font-size:30px;
+}
+.pro{
+    margin-top:20px;
+}
+.pro li span{
+    width:85%;
+    float:left;
+    text-align:center;
+    height:40px;
+    line-height:40px;
+    font-size:16px;
+    color:#333;
+}
+.pro li button{
+    width:70%;
+    background:#02B2B5;
+    margin-left:8%;
+    border:none;
+    height:30px;
+    border-radius:5px;
+    color:white;
+}

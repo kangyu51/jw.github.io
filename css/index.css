@@ -1,0 +1,317 @@
+/*顶部*/
+#header{
+    width:100%;
+    line-height:35px;
+    overflow:hidden;
+}
+#header #before{
+    width:50%;
+    float:left;
+    background:#F8F8F8;
+    border-bottom:1px solid #DFDEDE;
+}
+#before a{
+    margin:0 0 0 40%;
+}
+#header #after{
+    width:50%;
+    float:right;
+    background:#F8F8F8;
+    border-bottom:1px solid #DFDEDE;
+}
+#after ul{
+    float:right;
+    margin:0 50% 0 0;
+}
+#after ul li{
+    float:left;
+    line-height:35px;
+    margin:0 0 0 10px;
+}
+/*导航栏*/
+#nav2{
+    display:none;
+}
+.navbar{
+    width:100%;
+}
+.navbar-header{
+    float:left;
+    width:50%;
+    line-height:40px;
+}
+.navbar-header a{
+    float:right;
+    margin:40px 20px 40px 0;
+    font-size:30px;
+    color:#02B2B5;
+}
+.navbar-header .collapsed{
+    float:right;
+    margin:-46px 0 0 0;
+    display:none;
+}
+.navbar-nav li{
+    margin:40px 0 40px 5px;
+    width:100px;
+    height:40px;
+    text-align:center;
+}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover,.navbar .nav>li>a:hover{
+    background:#02B2B5;
+    color:white;
+}
+.navbar-nav li a{
+    font-size:16px;  
+    border-radius:5px;
+    text-align:center;
+}
+/*轮播器*/
+#myCarousel{
+    margin-top:-20px;
+}
+.carousel-control{
+    background:none;
+    border:none;
+    top:50%;
+}
+/*产品*/
+#bg{
+    background:#f7f7f7;
+    width:100%;
+    padding:30px 0 0 0;
+    margin:-20px 0 0 0;
+    position:relative;
+    overflow:hidden;
+}
+#bg .border{
+    width:60%;
+    margin:40px auto;
+    height:500px;
+    border:1px solid black;
+    position:relative;
+}
+#bg .border img{
+    position:absolute;
+    left:10%;
+    top:5%;
+    width:95%;
+    height:90%;
+}
+#bg1{
+    width:18%;
+    background:#f7f7f7;
+    position:absolute;
+    z-index:9999;
+}
+#bg1 img{
+    margin:20px 0 0 -20px;
+}
+#bg2{
+    background:#f7f7f7;
+}
+/*产品一之项链*/
+#xl{
+    width:100%;
+    background:url(../img/xlbg.jpg) no-repeat;
+    -webkit-background-size: 100%,100%;
+    background-size: 100%,100%;
+    padding-top:10px;
+    overflow:hidden;
+}
+#xl .xl-top{
+    width:100%;
+    overflow:hidden;
+}
+#xl .left{
+    width:50%;
+    height:200px;
+    float:left;
+}
+#xl .left span{
+    float:left;
+    width:60%;
+    text-align:center;
+    margin-left:40%;
+}
+#xl .left span.header{
+    height:50px;
+    line-height:50px;
+    font-size:30px;
+    font-weight:bold;
+    margin-top:25%;
+}
+#xl .left span.title{
+    height:30px;
+    font-size:18px;
+    font-weight:500;
+    margin-top:10px;
+}
+#xl .left span.key{
+    text-align:center;
+    font-size:18px;
+    margin-top:10px;
+}
+#xl .left span.eglish{
+    font-size:12px;
+    color:#999;
+    margin-top:10px;
+}
+#xl .right{
+    width:20%;
+    float:right;
+}
+#xl .right img{
+    margin-left:20px;
+}
+#xl .xl-bottom{
+    width:100%;
+    position:relative;
+}
+#xl .xl-bottom .xlbg{
+    width:50%;
+    height:820px;
+    position:relative;
+    position:absolute;
+    top:17%;
+    right:0;
+    background: url(../img/xlbgx.png)no-repeat;
+    background-size:80%,80%;
+}
+#xl .xl-bottom .xlbg div{
+    position:absolute;
+    top:35%;
+    left:220px;
+}
+#xl .xl-bottom .xlbg div span{
+    width:100%;
+    float:left;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    text-align:center;
+    cursor:pointer;
+}
+/*产品2之戒指*/
+#jz{
+    width:100%;
+    background: url(../img/jxbg.jpg)no-repeat;
+    margin-top:-130px;
+    overflow:hidden;
+}
+#jz .jzpic{
+    width:50%;
+    float:left;
+    padding-top:10%;
+    text-align:center;
+    padding-left:10%;
+}
+#jz .des{
+    width:40%;
+    float:right;
+    color:white;
+}
+#jz .des h3{
+    width:100%;
+    height:40px;
+    font-size:28px;
+    line-height:40px;
+    margin-top:40%;
+}
+#jz .des span{
+    width:100%;
+    float:left;
+    line-height:40px;
+    height:40px;
+}
+#jz .des span:nth-child(2){
+    margin:0 0 0 15%;
+    font-size:18px;
+}
+#jz .des span:nth-child(3){
+    margin:0 0 0 10%;
+    font-size:18px;
+}
+#jz .des span:nth-child(4){
+    margin:0 0 0 5%;
+    font-size:12px;
+    color:#999;
+}
+#jz .des span:nth-child(5){
+    margin:0 0 0 20%;
+    line-height:80px;
+    height:80px;
+    font-size:20px;
+}
+#jz .des span:nth-child(5) strong{
+    font-size:28px;
+}
+#jz .des button{
+    width:120px;
+    height:40px;
+    margin:0 0 0 18%;
+}
+/*产品列表*/
+.pro{
+    width:70%;
+    margin:0 auto;
+    margin-top:100px;
+}
+.pro li{
+    float:left;
+    margin-bottom:50px;
+}
+.pro li span{
+    width:100%;
+    float:left;
+    text-align:center;
+    height:40px;
+    line-height:40px;
+    font-size:16px;
+    color:#333;
+}
+.pro li span:nth-child(2){
+   border-bottom:1px dashed #ccc;
+}
+.pro li span:nth-child(3){
+    font-size:12px;
+}
+.pro li span strong{
+    font-size:16px;
+}
+.pro li button{
+    width:80%;
+    background:#02B2B5;
+    margin-left:15%;
+    border:none;
+    height:30px;
+    border-radius:5px;
+    color:white;
+}
+/* 底部*/
+footer{
+    width:100%;
+    background:#000;
+    overflow:hidden;
+    padding-bottom:20px;
+}
+footer div{
+    width:60%;
+    margin:10px auto;
+}
+footer div dl{
+    margin-top:5%;
+    text-align:center;
+}
+footer div dl dt{
+    font-size:16px;
+    height:40px;
+    line-height:40px;
+    color:#969696;
+}
+footer div dl dd{
+    font-size:14px;
+    height:30px;
+    line-height:30px;
+    color:#666;
+}
